@@ -1,4 +1,5 @@
-[![HitCount](https://hits.dwyl.com/snt-arg/s_graphs_docker.svg?style=flat-square&show=unique)](http://hits.dwyl.com/snt-arg/s_graphs_docker)
+[![HitCount](https://hits.dwyl.com/snt-arg/multi_s_graphs_docker.svg?style=flat-square&show=unique)](http://hits.dwyl.com/snt-arg/multi_s_graphs_docker)
+
 <p align="center">
   <h1 align="center">Multi S-Graphs: an Efficient Real-time Distributed Semantic-Relational Collaborative SLAM</h1>
     <p align="center">
