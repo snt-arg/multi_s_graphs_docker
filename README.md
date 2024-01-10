@@ -183,7 +183,17 @@ docker exec -ti multi_s_graphs_container bash
 ./tmux_launch.bash robot1 rosbags/?_split_robot2.bag
 ```
 
-## ROS Related
+## ROS 2 Related
+
+The ROS 2 RMW that we use is CycloneDDS as we rely on the Zenoh ROS2 bridges for connecting multiple robots between them.
+Please check that your ROS 2 system is using this RMW if you want to inspect the execution nodes.
+
+In our system we use a different ```ROS_DOMAIN_ID``` environment variable for each robot. The ID matches with the robot number e.g. robot1 has ```ROS_DOMAIN_ID=1```.
+In order to inspect the different nodes and topic please set your terminal into a corresponding ```ROS_DOMAIN_ID``` with:
+
+```sh
+export ROS_DOMAIN_ID=<YOUR_DESIRED_ID>
+```
 
 ### Nodelets
 
