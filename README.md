@@ -47,7 +47,7 @@
 
 <p align="center">
   <a href="https://vimeo.com/cvarupm/multi-s-graphs?share=copy">
-    <img src="./assets/img/video_front.png" alt="Logo" width="60%" style="background-color:white;">
+    <img src="./assets/img/video_front.png" alt="Logo" width="80%" style="background-color:white;">
   </a>
 </p>
 
