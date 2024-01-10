@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+  aerostack2:
+    image: ms_graphs
+    container_name: ms_graphs
+    privileged: true
+    environment:
+      DISPLAY: $DISPLAY
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ~/.Xauthority:/root/.Xauthority
+      - /path/to/rosbags/folder:/root/lux_stay_ws/rosbags
+    network_mode: "host"
