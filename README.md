@@ -37,7 +37,7 @@
   - [Download Datasets](#download-datasets)
   - [Real Dataset](#real-dataset)
   - [Virtual Dataset](#virtual-dataset)
-- [ROS Related](#ros-related)
+- [ROS 2 Related](#ros-2-related)
   - [Nodelets](#nodelets)
   - [Services](#services)
   - [Parameters](#parameters)
@@ -102,28 +102,24 @@ Hierarchical Representations
 ```sh
 docker pull sntarg/multi_s_graphs:latest
 ```
-<!-- 3. Build the image??
-```sh
-cd [/path/to/repository/folder]
-docker build . -t multi_s_graphs_container
-``` -->
 3. Allow multicast for Zenoh and display access for visualization
 ```sh
 sudo ifconfig lo multicast
 xhost +
 ```
-4. Compose a container from image using docker_compose.yml configuration.
+4. Modify the `path/to/rosbags/folder` inside the docker-compose.yml file. 
+5. Compose a container from image using the docker-compose.yml configuration.
 ```sh
 cd [/path/to/repository/folder]
 docker compose up -d
 ```
 This command also incorporates the flags `d`, which makes the container run in the detached mode
 
-5. Open a terminal inside the container
+6. Open a terminal inside the container
 ```sh
 docker exec -ti multi_s_graphs_container bash
 ```
-6. Execute an instance of Multi S-Graphs
+7. Execute an instance of Multi S-Graphs
 ```sh
 ./tmux_launch.bash [robot_namespace] [path/to/robot/rosbag]
 ```
