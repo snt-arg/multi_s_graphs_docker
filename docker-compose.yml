@@ -9,5 +9,6 @@ services:
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
       - ~/.Xauthority:/root/.Xauthority
+      - ./rviz:/root/lux_stay_ws/ros2_ws/src/s_graphs/rviz/
       - /path/to/rosbags/folder:/root/lux_stay_ws/rosbags
     network_mode: "host"
