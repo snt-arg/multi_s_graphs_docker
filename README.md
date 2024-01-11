@@ -16,7 +16,7 @@
     <a href="https://wwwen.uni.lu/studies/fstm/interdisciplinary_space_master/holger_voos"><light>Holger Voos</light></a>
   </p>
 
-  <h3 align="center"><a href="https://arxiv.org/pdf/2305.03441.pdf">Paper</a> | <a href="https://vimeo.com/cvarupm/multi-s-graphs?share=copy">Video</a></h3>
+  <h3 align="center"><a href="https://arxiv.org/abs/2401.05152">Paper</a> | <a href="https://vimeo.com/cvarupm/multi-s-graphs?share=copy">Video</a></h3>
   
 </p>
 
