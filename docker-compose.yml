@@ -1,6 +1,6 @@
 version: '3.3'
 services:
-  aerostack2:
+  multi_s_graphs:
     image: sntarg/multi_s_graphs
     container_name: ms_graphs
     privileged: true
