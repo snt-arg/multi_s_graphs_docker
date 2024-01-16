@@ -119,7 +119,7 @@ This command also incorporates the flags `d`, which makes the container run in t
 
 6. Open a terminal inside the container
 ```sh
-docker exec -ti multi_s_graphs_container bash
+docker exec -ti ms_graphs bash
 ```
 7. Execute an instance of Multi S-Graphs
 ```sh
@@ -149,7 +149,7 @@ docker exec -ti multi_s_graphs_container bash
 ### Run Multi S-Graphs
 1. Open a terminal inside the container
 ```sh
-docker exec -ti multi_s_graphs_container bash
+docker exec -ti ms_graphs bash
 ```
 2. In this terminal inside the container, execute an instance of Multi S-Graphs for Robot1
 ```sh
@@ -157,7 +157,7 @@ docker exec -ti multi_s_graphs_container bash
 ```
 3. In a different window, open another terminal inside the container
 ```sh
-docker exec -ti multi_s_graphs_container bash
+docker exec -ti ms_graphs bash
 ```
 4. In this terminal inside the container, execute an instance of Multi S-Graphs for Robot2
 ```sh
