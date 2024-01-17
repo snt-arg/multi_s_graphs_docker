@@ -51,18 +51,17 @@
   </a>
 </p>
 
-1. [Multi S-graphs: A Collaborative Semantic SLAM architecture
-   ](https://arxiv.org/abs/2305.03441)
+1. [Multi S-Graphs: an Efficient Real-time Distributed Semantic-Relational Collaborative SLAM
+   ](https://arxiv.org/abs/2401.05152)
    - **Citation**
      ```latex
-      @misc{fern2023multi,
-        title={Multi S-graphs: A Collaborative Semantic SLAM architecture},
-        author={Miguel Fernandez-Cortizas and Hriday Bavle and Jose Luis Sanchez-Lopez and Pascual Campoy and Holger Voos},
-        year={2023},
-        eprint={2305.03441},
-        archivePrefix={arXiv},
-        primaryClass={cs.RO}
-      }
+     @misc{fernandezcortizas2024multi,
+      title={Multi S-Graphs: an Efficient Real-time Distributed Semantic-Relational Collaborative SLAM}, 
+      author={Miguel Fernandez-Cortizas and Hriday Bavle and David Perez-Saura and Jose Luis Sanchez-Lopez and Pascual Campoy and Holger Voos},
+      year={2024},
+      eprint={2401.05152},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}}
      ``` 
 
 2. [S-Graphs+: Real-time Localization and Mapping leveraging
