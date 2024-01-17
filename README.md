@@ -70,14 +70,15 @@ Hierarchical Representations
    ](https://arxiv.org/abs/2212.11770)
    - **Citation**
      ```latex
-      @misc{bavle2022sgraphs+,
-        title = {S-Graphs+: Real-time Localization and Mapping leveraging Hierarchical Representations},
-        author={Hriday Bavle and Jose Luis Sanchez-Lopez and Muhammad Shaheer and Javier Civera and Holger Voos},
-        year={2022},
-        publisher = {arXiv},
-        year = {2022},
-        primaryClass={cs.RO}
-     }
+      @ARTICLE{10168233,
+        author={Bavle, Hriday and Sanchez-Lopez, Jose Luis and Shaheer, Muhammad and Civera, Javier and Voos, Holger},
+        journal={IEEE Robotics and Automation Letters}, 
+        title={S-Graphs+: Real-Time Localization and Mapping Leveraging Hierarchical Representations}, 
+        year={2023},
+        volume={8},
+        number={8},
+        pages={4927-4934},
+        doi={10.1109/LRA.2023.3290512}}
      ``` 
 
 2. [Situational Graphs for Robot Navigation in Structured Indoor Environments
